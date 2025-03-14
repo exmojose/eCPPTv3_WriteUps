@@ -53,7 +53,7 @@ sudo nmap -p- --open -sS -vvv -n -Pn [IPobjetivo] -oG [Archivo]
   - *-vvv* Triple verbose, para ver en consola lo que vaya encontrando nmap
   - *-n* Para no aplicar resolución DNS 
   - *-Pn* No realiza detección de Host. Con este parámetro nmap asumirá que los Host especificados están activos. 
-  - *-oN* Genera un archivo de salida en formato Greppable, con el nombre que le hayamos especificado
+  - *-oG* Genera un archivo de salida en formato Greppable, con el nombre que le hayamos especificado
 
 ![Imagen04](4.jpeg)
 
