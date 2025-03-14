@@ -223,7 +223,7 @@ Contraseña:  d@v1$123
 
 ![Imagen017](17.jpeg)
 
-Podemos hacer un tratamiento de la TTY para operar de forma más cómoda. Vemos que CTRL + C lo podemos hacer sin problemas, las proporciones también están correctas. Lo único es que no podemos hacer CTRL + L. Esto es porque la variable de entorno TERM, vale xterm-kitty y lo suyo es que valga xterm. Para cambiar esto, ejecutamos el siguiente comando 
+Podemos hacer un tratamiento de la TTY para trabajar de forma más cómoda. Vemos que CTRL + C lo podemos hacer sin problemas, las proporciones también están correctas. Lo único es que no podemos hacer CTRL + L para limpiar la consola. Esto es porque la variable de entorno TERM, vale xterm-kitty y lo suyo es que valga xterm. Para cambiar esto, ejecutamos el siguiente comando 
 
 ```bash
 export TERM=xterm
