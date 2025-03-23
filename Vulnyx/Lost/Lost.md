@@ -231,7 +231,7 @@ Como decíamos anteriormente, tras un rato probando ataques de fuerza bruta, no 
 
 En este punto, lo que hemos hecho ha sido utilizar SQLmap para derivar esta SQLi en un RCE. Sabemos, porque lo hemos comprobado, que el parámetro id es vulnerable a SQLi, por lo que con SQLmap podemos tratar de obtener una Shell en el equipo objetivo. Para ello, utilizamos el siguiente comando 
 
-``bash
+```bash
 sqlmap -u http://dev.lost.nyx/passengers.php?id=1 --os-shell
 ```
 
