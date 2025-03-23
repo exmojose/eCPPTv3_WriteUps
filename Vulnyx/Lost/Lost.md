@@ -419,7 +419,7 @@ Ya con chisel en ambos equipos, lo que vamos a hacer es correr chisel en la máq
 
 ```bash
 ./chisel client [IPAtacante]:[PuertoEscuchaChisel] R:[PuertoAtacante]:[LocalHostVictima]:[PuertoVictima]
-`` 
+```
 Si vamos a la terminal donde tenemos corriendo chisel como servidor, veremos que se ha establecido una nueva conexión y ahora lo que hay corriendo en el puerto 3000 del localhost de la máquina objetivo, va a correr en el puerto 80 del localhost de la máquina de atacantes
 
 ![Imagen037](37.jpeg)
